@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>646</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="main_layout" stretch="0">
+      <item>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="">
+         <attribute name="title">
+          <string>Setup</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout" stretch="1,15">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,1,2,2,2,2,1,2,3">
+              <item>
+               <widget class="QLabel" name="label">
+                <property name="minimumSize">
+                 <size>
+                  <width>58</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Objects</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>25</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton">
+                <property name="minimumSize">
+                 <size>
+                  <width>75</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>New object</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>75</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Modify object</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_3">
+                <property name="minimumSize">
+                 <size>
+                  <width>75</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Save object</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_4">
+                <property name="minimumSize">
+                 <size>
+                  <width>82</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Save simulation</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>25</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>57</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Object type</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox">
+                <property name="minimumSize">
+                 <size>
+                  <width>87</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="4,1,20">
+              <item>
+               <widget class="QListWidget" name="listWidget">
+                <property name="minimumSize">
+                 <size>
+                  <width>95</width>
+                  <height>366</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Expanding</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>10</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QTableWidget" name="tableWidget">
+                <property name="minimumSize">
+                 <size>
+                  <width>476</width>
+                  <height>366</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="">
+         <attribute name="title">
+          <string>Load</string>
+         </attribute>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

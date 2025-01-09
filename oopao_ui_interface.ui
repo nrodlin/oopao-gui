@@ -20,7 +20,7 @@
       <item>
        <widget class="QTabWidget" name="tabWidget">
         <property name="currentIndex">
-         <number>0</number>
+         <number>3</number>
         </property>
         <widget class="QWidget" name="">
          <attribute name="title">
@@ -206,6 +206,16 @@
         <widget class="QWidget" name="">
          <attribute name="title">
           <string>Load</string>
+         </attribute>
+        </widget>
+        <widget class="QWidget" name="exec_tab">
+         <attribute name="title">
+          <string>Exec</string>
+         </attribute>
+        </widget>
+        <widget class="QWidget" name="vis_tab">
+         <attribute name="title">
+          <string>Visualize</string>
          </attribute>
         </widget>
        </widget>

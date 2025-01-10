@@ -1,5 +1,9 @@
 <RCC>
   <qresource prefix="icon">
+    <file>icon/web-browser.png</file>
+    <file>icon/diskette.png</file>
+    <file>icon/stop-button.png</file>
+    <file>icon/greater-than.png</file>
     <file>icon/EST.png</file>
     <file>icon/IAC.png</file>
     <file>icon/add-button.png</file>

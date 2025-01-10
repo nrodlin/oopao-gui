@@ -11,7 +11,21 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>OOPAO Simulator - EST version</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/icon/icon/IAC.png</normalon>
+   </iconset>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>12</width>
+    <height>12</height>
+   </size>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="minimumSize">
@@ -24,7 +38,13 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>3</number>
+       <number>2</number>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
       </property>
       <widget class="QWidget" name="">
        <property name="minimumSize">
@@ -1111,14 +1131,24 @@
                   <item>
                    <widget class="QPushButton" name="pushButton_16">
                     <property name="text">
-                     <string>Add</string>
+                     <string/>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normalon>:/icon/icon/add-button.png</normalon>
+                     </iconset>
                     </property>
                    </widget>
                   </item>
                   <item>
                    <widget class="QPushButton" name="pushButton_17">
                     <property name="text">
-                     <string>Remove</string>
+                     <string/>
+                    </property>
+                    <property name="icon">
+                     <iconset>
+                      <normalon>:/icon/icon/delete.png</normalon>
+                     </iconset>
                     </property>
                    </widget>
                   </item>
